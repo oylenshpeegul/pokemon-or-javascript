@@ -1,0 +1,32 @@
+body {
+    background: #ffeedd;
+}
+
+#main {
+    background: #ffe66d;
+    margin: 10%;
+    margin-top: 1%;
+    padding: 10%;
+    font-size: 24px;
+}
+
+#buttons, h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 36px;
+}
+
+input {
+    font-size: 24px;
+    background: #2F3061;
+    color: #F7FFF7;
+    margin: 10%;
+    margin-top: 1%;
+}
+
