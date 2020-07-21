@@ -9,7 +9,10 @@ function startGame() {
     game = {
         pokemon: ["Magmar", "Cresselia", "Cubone", "Doduo",
                   "Emboar", "Hypno", "Metang", "Marill", "Poliwag",
-                  "Raticate", "Sableye", "Vulpix", "Quilava"],
+                  "Raticate", "Sableye", "Vulpix", "Quilava",
+		  "Abra", "Cryogonal", "Deino", "Duosion",
+		  "Excadrill", "Luxio", "Milotic", "Onix",
+		  "Riolu", "Solosis", "Spoink"],
         js: ["Angular", "Aurelia", "Backbone", "Dojo",
              "Ember", "Enyo", "Meteor", "Mithril", "Polymer",
              "React", "Svelte", "Vue", "Qooxdoo"],
