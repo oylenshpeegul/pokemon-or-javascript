@@ -38,15 +38,15 @@ function guess(str) {
 
     if (game.answer == str) {
         game.numberRight += 1
-        mainArea.style.background = "#6de66d";
-        mainText.textContent = `Correct! ${game.thing} is a ${porj}!`
+        mainArea.style.background = "#6dec65";
+        mainText.textContent = `Correct! ${game.thing} is a ${porj}.`
     } else {
         game.numberWrong += 1
-        mainArea.style.background = "#e66d6d";
+        mainArea.style.background = "#ed5650";
         mainText.textContent = `Sorry. ${game.thing} is a ${porj}.`
     }
 
-    mainButtons.innerHTML = `<input id="next" type="button" value="Next!" onclick="nextGuess()" />`
+    mainButtons.innerHTML = `<input id="next" type="button" value="Next" onclick="nextGuess()" />`
 }
 
 function nextGuess() {
@@ -79,8 +79,8 @@ function nextGuess() {
         mainArea.style.background = "#ffe66d";
         mainText.textContent = game.thing
         mainButtons.innerHTML = `
-        <input id="pokemon" type="button" value="Pokémon!" onclick="guess('pokemon')" />
-        <input id="javascript" type="button" value="JavaScript!" onclick="guess('js')" />
+        <input id="pokemon" type="button" value="Pokémon" onclick="guess('pokemon')" />
+        <input id="javascript" type="button" value="JavaScript" onclick="guess('js')" />
       `
     }
 }
