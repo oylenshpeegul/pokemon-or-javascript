@@ -29,5 +29,7 @@ input {
     margin: 10%;
     margin-top: 1%;
     padding: 2%;
+    border-radius: .5em;
+    border-style: none;
 }
 
