@@ -1,5 +1,6 @@
 body {
     background: #ffeedd;
+    font-size: 100%;
 }
 
 #main {
@@ -7,7 +8,6 @@ body {
     margin: 10%;
     margin-top: 1%;
     padding: 10%;
-    font-size: 24px;
 }
 
 #buttons, h1, p {
@@ -15,18 +15,19 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.5em;
 }
 
 p {
-    font-size: 36px;
+    font-size: 2.5em;
 }
 
 input {
-    font-size: 24px;
-    background: #2F3061;
-    color: #F7FFF7;
+    font-size: 1.5em;
+    background: #4744dc;
+    color: #f7fff7;
     margin: 10%;
     margin-top: 1%;
+    padding: 2%;
 }
 
