@@ -42,7 +42,7 @@ function guess(str) {
         mainText.textContent = `Correct! ${game.thing} is a ${porj}.`
     } else {
         game.numberWrong += 1
-        mainArea.style.background = "#ed5650";
+        mainArea.style.background = "#f76356";
         mainText.textContent = `Sorry. ${game.thing} is a ${porj}.`
     }
 
