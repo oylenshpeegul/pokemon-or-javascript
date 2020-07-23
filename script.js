@@ -34,7 +34,7 @@ function endGame() {
 
 function guess(str) {
 
-    let porj = game.answer == 'pokemon' ? 'Pokémon' : 'JavaScript Framework' 
+    let porj = game.answer == 'pokemon' ? 'Pokémon' : 'JavaScript framework' 
 
     if (game.answer == str) {
         game.numberRight += 1
